@@ -48,10 +48,9 @@ There are two simple Mac demo apps included in the Demo/ subfolder. One lets you
 
 (You only need to do this if you checked out the CouchCocoa source code and want to build it yourself. If you downloaded a precompiled framework, just go onto the next section.)
 
-1. Select which branch you want. If you're working with TouchDB, you'll want the `touchdb` branch. Otherwise use `master`. Use `git checkout' to check out the appropriate branch.
-2. Open CouchCocoa.xcodeproj
-3. Select "Mac Framework" or "iOS Framework" from the scheme pop-up in the toolbar
-4. Product > Build
+1. Open CouchCocoa.xcodeproj
+2. Select "Mac Framework" or "iOS Framework" from the scheme pop-up in the toolbar
+3. Product > Build
 
 If you want to run the unit tests, first make sure a CouchDB server is running on localhost, then choose Product > Test.
 
@@ -90,7 +89,7 @@ Released under the [Apache license, version 2.0][6].
 
 Author: [Jens Alfke](https://github.com/snej/)
 
-With contributions from: [J Chris Anderson](https://github.com/jchris/), David Venable, Alex McArthur, Jonathon Mah, Pierre Metrailler, Sven A. Schmidt, Katrin Apel.
+With contributions from: [J Chris Anderson](https://github.com/jchris/), [David Venable](https://github.com/dlvenable), [Alex McArthur](https://github.com/alexmcarthur), [Jonathon Mah](https://github.com/jmah), [Pierre Metrailler](https://github.com/pimetrai), [Sven A. Schmidt](https://github.com/sas71), [Katrin Apel](https://github.com/kaalita).
 
 Copyright 2012, Couchbase, Inc.
 
